@@ -1,0 +1,126 @@
+.container {
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+div.flexrow{
+    display: flex;
+    height: 51px;
+}
+
+@media (max-width: 496px) {
+    div.flexrow{
+       flex-wrap: wrap;
+    }
+    div.right{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+div.left{
+    flex: 0 1 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+div.right{
+    flex: 0 1 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+div.logo{
+    width: 230px;
+    display: flex;
+}
+
+.logoimg {
+    display: flex;
+    flex: 1 1 20%;
+    justify-content: center;
+    align-items:center;
+}
+.imagesecond {
+    width: 30px;
+    height: 30px;
+}
+.logotext {
+    color: rgb(71, 64, 64);
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    flex: 1 1 80%;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
+div.name{
+    width: 230px;
+    display: flex;
+}
+
+
+img.imagefirst{
+    width: 40px;
+    height: 40px;
+}
+
+
+.person {
+    flex: 1 1 20%;
+    justify-content: center;
+    display: flex;
+    align-items:center;
+}
+.persontext {
+    font-size: 20px;
+    flex: 1 1 60%;
+    justify-content: center;
+    display: flex;
+    align-items:center;
+}
+.exit {
+    flex: 1 1 20%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+/* ------------------------------------ ШАПКА---------------------------------------------- */
+
+.secondblock {
+    padding-top: 20px;
+}
+.content {
+    height: 48px;
+    display: flex;
+}
+.leftcontent {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+.firsttext {
+    flex: 0 1 25%;
+    color: #058DC7;
+}
+.secondtext {
+    flex: 0 1 75%;
+    padding-left: 10px;
+    color: #707478;
+}
+@media (max-width: 496px) {
+    .leftcontent{
+        flex-wrap: wrap;
+    }
+    .content {
+        height: 100px;
+        padding-top: 20px;  
+    }
+    .firsttext {
+        padding-left: 10px;
+    }
+}
