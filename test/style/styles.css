@@ -124,3 +124,131 @@ img.imagefirst{
         padding-left: 10px;
     }
 }
+/* ------------------------------сотрудники-------------------------------------- */
+.maincont {
+    margin-top: 10px;
+    display: flex;
+    border: 2px solid black;
+    height: 766px;
+}
+.leftmain {
+    flex: 1 1 20%;
+    border-right: 1px solid #E4E4E4;
+
+}
+.rightmain {
+    flex: 1 1 80%;
+    border: 2px solid blue;
+}
+
+@media (max-width: 950px) {
+    .leftmain {
+        display: none; 
+    }
+
+}
+
+.search {
+    height: 22px;
+    display: flex;
+}
+.searchicon {
+    margin-left: 10px;
+}
+.searchtext {
+    color: #999999;
+    margin-left: 10px;
+}
+
+.firstperson {
+    background-color:  #E7E6E1;
+    display: flex;
+    padding: 20px 10px 20px 20px;
+    margin-top: 10px;
+}
+.personicon {
+}
+.personhar{
+    padding-left: 10px;
+}
+.personname {
+    color: #058DC7;
+    opacity: 0.5;
+}
+.personmen {
+    color: #808080;
+
+}
+.personpos {
+    background-color: red;
+    opacity: 0.5;
+    width: 110px;
+    padding-left: 10px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.numberper {
+    padding-top: 5px;
+    padding-left: 50px;
+    color: #A2A2A2;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.secondperson {   
+    display: flex;
+    padding: 20px 10px 20px 20px;
+}
+.personicon2 {
+}
+.personhar2 {
+    padding-left: 10px;
+}
+.personname2 {
+    color: #058DC7;
+}
+.personmen2 {
+    color: #808080;
+}
+.personpos2 {
+    background: #2DD0C6;
+    width: 76px;
+    padding-left: 10px;
+    color:  #FFFFFF;
+}
+.numberper2 {
+    color: #EE144E;
+    padding-top: 5px;
+    padding-left: 33px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.thirdperson {
+    display: flex;
+    background-color:  #E7E6E1;
+    padding: 20px 10px 20px 20px;
+}
+.personicon3 {
+}
+.personhar3 {
+    padding-left: 10px;
+}
+.personname3 {
+    color: #058DC7;
+    opacity: 0.5;
+}
+.personmen3 {
+    color: #808080;
+}
+.personpos3 {
+}
+.numberper3 {
+    padding-top: 5px;
+    padding-left: 60px;
+    color: #A2A2A2;
+    font-size: 40px;
+    font-weight: 800;
+}
