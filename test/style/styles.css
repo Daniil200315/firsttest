@@ -128,7 +128,6 @@ img.imagefirst{
 .maincont {
     margin-top: 10px;
     display: flex;
-    border: 2px solid black;
     height: 766px;
 }
 .leftmain {
@@ -138,14 +137,12 @@ img.imagefirst{
 }
 .rightmain {
     flex: 1 1 80%;
-    border: 2px solid blue;
 }
 
 @media (max-width: 950px) {
     .leftmain {
         display: none; 
     }
-
 }
 
 .search {
@@ -251,4 +248,145 @@ img.imagefirst{
     color: #A2A2A2;
     font-size: 40px;
     font-weight: 800;
+}
+
+/* --------------------------------правый блок------------------------------------- */
+
+.rightmain {
+}
+.bigmain {
+}
+.bigcontent {
+    display: flex;
+    flex-direction: column;
+}
+.personinfo {
+    display: flex;
+    border-bottom: 2px solid #E4E4E4;
+    padding-bottom: 50px;
+}
+.info1 {
+    display: flex;
+    flex: 0 1 20%;
+    justify-content: center;
+    align-items: center;
+}
+.iconinfo {
+    margin-right: 15px;
+    margin-left: 20px;
+}
+.iconname {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
+img.eye{
+    margin-bottom: 10px;
+    margin-left: -5px;
+}
+.iconmen {
+    color: #808080;
+}
+.info2 {
+    display: flex;
+    padding-left: 30px;
+    flex: 0 1 20%;
+    justify-content: center;
+    align-items: center;
+}
+div.levelofrisk{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    border-right: 2px solid #C6C6C6;
+}
+.risk{
+    flex: 0 1 100%;
+   color: #808080;
+}
+.lastact{
+    color: #808080;
+}
+.numberofrisk{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.minus{
+    color: #EE144E;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+.info3 {
+    display: flex;
+    align-items: flex-end;
+    flex: 0 1 20%;
+    justify-content: center;
+}
+.percent2{
+    color: #000000;
+}
+.info4 {
+    display: flex;
+    align-items: flex-end; 
+    flex: 0 1 20%;
+    justify-content: center;
+}
+.info5 {
+    display: flex;
+    flex: 0 1 20%;
+    justify-content: center;
+    align-items: center;
+}
+.spisok{
+    display: flex;
+}
+.sotr{
+    margin-left: 5px;
+    color: #058DC7;
+}
+.znach{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
+.grey{
+    flex: 0 1 25%;
+}
+
+@media (max-width:767px) {
+    .personinfo {
+        flex-wrap: wrap;
+    }
+    .info1{
+        flex: 0 1 100%;
+    }
+    .info2{
+        flex: 0 1 100%;
+    }
+    .info3{
+        flex: 0 1 100%;
+    }
+    .info4{
+        flex: 0 1 100%;
+    }
+    .info5{
+        flex: 0 1 100%;
+    }
+    div.levelofrisk{
+        padding: auto;
+        border-right: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .risk{
+        text-align: center;
+        padding: auto;
+    }
 }
