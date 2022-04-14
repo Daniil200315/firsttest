@@ -390,3 +390,65 @@ div.levelofrisk{
         padding: auto;
     }
 }
+
+
+
+/* -----------------------------Красные блоки---------------------------- */
+.redblock {
+}
+.redtext {
+}
+.content {
+    color: #4D4D4D;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.threered {
+    display: flex;
+}
+.redcontainer {
+    border: 1px solid #EE144E;
+    flex: 0 1 33.3333333%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 74px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.redsign {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.reduse {
+}
+@media (max-width: 614px) {
+    .threered {
+        flex-wrap: wrap;
+    }
+    .redcontainer {
+        flex: 0 1 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+.simpleblock {
+    display: flex;
+    height: 195px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.textdan {
+}
+.textnone {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #989898;
+}
